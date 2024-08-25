@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0cm;
+    padding: 0cm;
+}
+.head{
+    
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1100px;
+    padding-left: 150px;
+    border-bottom: 500px;
+
+}
+.container{
+
+}
+.btn .ios , .mac{
+    border-top: 10px;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px;
+
+}
+.btn .ios{
+    background-color:rgb(50, 170, 50) ;
+    color: white;
+    border-radius: 30px;
+    margin-right:10px ;
+    border: 0px;
+
+}
+.btn .mac{
+    background-color: rgb(76, 74, 241);
+    color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    border: 0px;
+}
+.btn .ios ,.mac:hover{
+    cursor: pointer;
+}
+ p{
+    color: gray;
+    font-size: medium;
+   margin-bottom: 10px;
+}
+.po{
+    position: relative;
+    top: 142px;
+    left: -70px;
+}
+.logo{
+    position: relative;
+    top: -70px;
+
+}
+h1{
+    position: relative;
+    top: 82px;
+}
+.sec-cond{
+    position: relative;
+    top: 70px;
+    padding-bottom: 100px;
+}
+.computer{
+    display: flex;
+}
+.third-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-p ,.sec-p ,.third-p{
+    padding-left: 80px;
+    padding-top: 50px;
+    text-align: left;
+}
+.first-p h2 ,.sec-p  h2{
+    font-weight:bold;
+    padding-bottom: 10px;
+    
+} 
+.sec-p{
+    position: relative;
+    left: 750px;
+    top: -420px;
+}
+.third-p{
+    position: relative;
+    top: -256px;
+    left: 350px;
+
+}
+.fourth-cont{
+    padding-top: 20px;
+    font-size: x-large;
+}
+.fourth-header{
+    padding-bottom: 100px;
+}
+.fifth-cont div{
+   margin: 45px;
+}
+.fifth-cont  .five h2{
+    font-size: xx-large ;
+    margin-bottom: 20px;
+}
+.fifth-cont .content{
+    display: flex;
+
+}
+.fifth-cont .content h3{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fifth-cont .content p{
+    margin-bottom: 10px;
+}
+.fifth-cont .content .blacklist{
+    position: relative;
+    top: -10px;
+}
+.imgs img{
+    margin: 40px;
+}
+h2 ,h3{
+    margin-bottom: 10px;
+}
+.ios-and-mac h2{
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 30px;
+}
+footer {
+    background-color: #333; /* Dark background color */
+    color: white;           /* White text color */
+    text-align: center;     /* Center align text */
+    padding: 20px;          /* Add some padding */
+    position: relative;     /* Position relative for layout control */
+    bottom: 0;              /* Stick to the bottom */
+    width: 1300px;            /* Full width */
+}
+
+/* Style for the list inside the footer */
+footer ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;            /* Remove default padding */
+}
+
+footer ul li {
+    display: inline;       /* Display list items inline */
+    margin: 0 10px;        /* Margin between items */
+}
+
+footer ul li a {
+    color: white;          /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
